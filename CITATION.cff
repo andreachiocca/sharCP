@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the associated research publication when using this software."
+title: "sharCP: Effective Critical Plane assessment of sharp notches"
+type: software
+authors:
+  - family-names: Chiocca
+    given-names: Andrea
+repository-code: https://github.com/andreachiocca/sharCP
+abstract: "Python routines for calibration and independent prediction using the ECP approach for sharp welded notches under Mode I and Mode III loading."
