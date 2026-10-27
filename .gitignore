@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+results/
+*.log
+.DS_Store
+*.zip
+# Full FE exports should be archived externally, not tracked
+full_data/

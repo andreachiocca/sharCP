@@ -388,7 +388,7 @@ def main(argv=None):
     ap.add_argument("--defaultRhoGeo", type=float, default=DEFAULT_RHOGEO_MM)
     ap.add_argument("--sphere", type=int, default=DEFAULT_SPHERE)
     ap.add_argument("--pred_sigma", type=float, default=-2.0,
-                    help="Standard-deviation offset for N prediction: -2=about 2.3%, 0=P50, 2=about 97.7%.")
+                    help="Standard-deviation offset for N prediction: -2=about 2.3%%, 0=P50, 2=about 97.7%%.")
     args,_ = ap.parse_known_args(argv)
 
     root=Path(args.root); calibdir=root/args.calibdir; outdir=root/args.outdir; outdir.mkdir(parents=True,exist_ok=True)

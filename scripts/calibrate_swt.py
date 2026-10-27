@@ -695,7 +695,7 @@ def main(argv=None):
     ap.add_argument("--plane", type=str, default="stress", choices=["stress", "strain"],
                     help="Which Mode-I column to use (plane stress / plane strain)")
 
-    ap.add_argument("--nsigma", type=float, default=1.2815, help="std dev multiplier for scatter bands (1.2815 for 90% and 1.6449 for 95%)")
+    ap.add_argument("--nsigma", type=float, default=1.2815, help="std dev multiplier for scatter bands (1.2815 for 90%% and 1.6449 for 95%%)")
     ap.add_argument("--Nref", type=float, default=2.0e6, help="Reference cycles for reporting")
 
     ap.add_argument("--rc_min", type=float, default=0.005, help="Min control radius rc [mm]")

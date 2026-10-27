@@ -638,7 +638,7 @@ def main(argv=None):
     ap.add_argument("--rcsteps", type=int, default=500, help="number of rc values to test (grid search)")
 
     ap.add_argument("--kF", type=float, default=DEFAULT_KF, help="Findley kF parameter")
-    ap.add_argument("--nsigma", type=float, default=2, help="std dev multiplier for scatter bands (1.2815 for 95%)")
+    ap.add_argument("--nsigma", type=float, default=2, help="std dev multiplier for scatter bands (1.2815 for 95%%)")
     ap.add_argument("--Nref", type=float, default=2.0e6, help="Reference cycles for reporting Y@Nref and T_ECP")
     ap.add_argument("--defaultSy", type=float, default=DEFAULT_SY_MPA, help="Default Sy [MPa] if not in author folder name")
     ap.add_argument("--defaultRhoGeo", type=float, default=DEFAULT_RHOGEO_MM, help="Default FE rho_geo [mm] if not in author folder name")

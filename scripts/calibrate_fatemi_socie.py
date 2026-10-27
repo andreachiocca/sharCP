@@ -668,7 +668,7 @@ def main(argv=None):
     ap.add_argument("--rcmax", type=float, default=0.30, help="rc maximum [mm]")
     ap.add_argument("--rcsteps", type=int, default=500, help="number of rc values to test (grid search)")
 
-    ap.add_argument("--nsigma", type=float, default=1.2815, help="std dev multiplier for scatter bands (1.2815 for 90% and 1.6449 for 95%)")
+    ap.add_argument("--nsigma", type=float, default=1.2815, help="std dev multiplier for scatter bands (1.2815 for 90%% and 1.6449 for 95%%)")
     ap.add_argument("--Nref", type=float, default=2.0e6, help="Reference cycles for reporting FS@Nref and T_ECP")
     ap.add_argument("--kFS", type=float, default=DEFAULT_KFS, help="Fatemi–Socie k parameter")
     ap.add_argument("--defaultSy", type=float, default=DEFAULT_SY_MPA, help="Default Sy [MPa] if not in author folder name")
